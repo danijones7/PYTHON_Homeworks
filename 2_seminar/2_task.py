@@ -18,3 +18,13 @@ if D >= 0:
     x2 = (summa - D ** 0.5) / 2
     
 print (f'Первое число: {(x1)}, Второе число: {(x2)}')
+
+
+# Метод перебора 
+
+# x = int(input())
+# y = int(input())
+# for i in range(x):
+#   for j in range(y):
+#       if x == i + j and y == i * j:
+#           print(i, j)
