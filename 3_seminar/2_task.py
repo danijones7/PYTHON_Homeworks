@@ -28,6 +28,8 @@ for i in range(1, len(massiv)):
         blizh_num = massiv[i]
 print(f'Ближайшим к числу {X} будет число: {blizh_num}')
 
+
+
  
 
 
