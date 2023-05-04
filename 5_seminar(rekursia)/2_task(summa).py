@@ -15,8 +15,13 @@
 # print(Summa(2,4))
 
 def Summa(a,b):
-    if b ==  0:
-        return a
-    return Summa(a+1,b-1)
+    if a>b:  ## для уменьшения количества итерраций 
+        if b ==  0:
+            return a
+        return Summa(a+1,b-1)
+    else:
+        if a == 0:
+            return b 
+        return Summa(a-1,b+1)
     
-print(Summa(10,12))
+print(Summa(10,1000))
